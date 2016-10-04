@@ -11,3 +11,26 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+
+.site-title{
+  display: none;
+}
+
+@media screen and (min-width: 87.6875em) {
+    body::before {
+        width: -webkit-calc(35% - 289px);
+        width: calc(35% - 289px);
+        min-width: 380px;
+    }
+
+    body.custom-background div.site {
+        max-width: 1920px;
+    }
+}
+
+@media screen and (min-width: 68.75em) {
+    .site-content {
+        margin-left: 21%;
+        width: 79%;
+    }
+}
